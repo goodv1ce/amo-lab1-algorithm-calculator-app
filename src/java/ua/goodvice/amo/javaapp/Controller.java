@@ -200,8 +200,7 @@ public class Controller {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            resultField.setText(Double.toString(currentAlgorithmHandler.calculate(userInput.toString())));
-            resultField.setVisible(true);
+            dataEntry.setText(userInput.toString());
         });
     }
 
